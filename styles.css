@@ -13,7 +13,7 @@ body
 .container  
 {
     width:90%;
-    max-width: 400px;
+    max-width: 380px;
     background-color:  hsl(216, 50%, 16%);
     margin: 3em auto;
     padding: 1.5em;
@@ -118,7 +118,7 @@ body
     font-size: 14px;
     font-weight: 300;
     color:hsl(0,0%,100%);
-    transform: translateY(-25px);
+    transform: translateY(-20px);
 }
 .attribution a{
     color: hsl(178, 100%, 50%);
