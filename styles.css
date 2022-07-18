@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+*
+{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;;
+}
+.container  
+{
+    width:90%;
+    max-width: 400px;
+    background-color:  hsl(216, 50%, 16%);
+    margin: 3em auto;
+    padding: 1.5em;
+    border-radius: 15px;
+}
+
+.container  .hero-img img
+{
+    width: 100%;
+    border-radius: 10px;
+
+}
+
+.container .content h2
+{
+    margin: 1.4rem 0 0;
+    color: hsl(0,0%,100%);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.container .content p
+{
+    color: hsl(215, 51%, 70%);
+}
+.container .content>p
+{
+    margin: 1.2rem 0 0;
+    line-height: 1.5;
+    font-size:1.1rem ;
+}
+.details
+{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.details .eth, .time
+{
+    display: flex;
+
+}
+
+.details .eth>p
+{
+    margin-left: .5em;
+    color: hsl(178, 100%, 50%);
+    font-size: 1.1em
+}
+
+.details .time>p
+{
+    margin-left: 0.5em;
+    font-size: 1.1em
+}
+
+.creator
+{
+    margin-top: 1.5em;
+    border-top: 1px solid hsl(215, 32%, 27%);
+    display: flex;
+    align-items: center;
+}
+.creator .img-container
+{ 
+    width: 52px;
+    height: 52px;
+    border-radius: 50px;
+    background-color: white;
+    margin-top: 1em;
+    position: relative;
+   
+}
+
+.img-container img
+{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: .05em;
+    left: .02em;
+
+}
+
+.creator p
+{
+
+   margin:1.2rem 0 0 1.5rem;
+   font-size: 1.1rem;
+   color: hsl(215, 51%, 70%);
+}
+
+.creator p>span
+{
+    color: hsl(0,0%,100%);
+}
+
+.attribution
+{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color:hsl(0,0%,100%);
+    transform: translateY(-25px);
+}
+.attribution a{
+    color: hsl(178, 100%, 50%);
+}
+
+@media screen and (min-width:750px)
+{
+    .container
+    {
+        width:50%;
+        margin: 3% auto;
+    }
+}
