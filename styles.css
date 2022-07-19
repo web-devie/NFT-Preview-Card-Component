@@ -55,7 +55,7 @@ body
 .details .eth, .time
 {
     display: flex;
-    alin-items: center;
+    align-items: center;
 
 }
 
