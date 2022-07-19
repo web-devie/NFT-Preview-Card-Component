@@ -55,6 +55,7 @@ body
 .details .eth, .time
 {
     display: flex;
+    alin-items: center;
 
 }
 
@@ -129,6 +130,6 @@ body
     .container
     {
         width:50%;
-        margin: 3% auto;
+        margin: 5% auto;
     }
-    }
+}
